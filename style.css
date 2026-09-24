@@ -9,7 +9,11 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            color: #fff;
+            color: #000000;
+            flex-direction: column ;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-transform: uppercase;
         }
         .container {
             background: rgba(255, 255, 255, 0.1);
@@ -30,6 +34,7 @@
             font-size: 1rem;
             margin-right: 1rem;
             box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+            
         }
         button {
             padding: 0.8rem 1rem;
@@ -80,5 +85,11 @@
         svg {
             fill: currentColor;
         }
+.task {
+    flex: 1;
+    font-size: 1rem;
+    cursor: pointer;
+    word-break: break-word; /* Ensures long words break to the next line */
 
+}
 
